@@ -2,16 +2,16 @@
   "name": "3685-pink",
   "version": "0.1.0",
   "private": true,
-  "description": "Личный проект «Пинк» от HTML Academy",
-  "author": "Андрей Варава",
+  "description": "Адаптивный Pinconoid",
+  "author": "Hacker",
   "repository": {
     "type": "git",
-    "url": "git@github.com:htmlacademy-adaptive/3685-pink.git"
+    "url": "https://github.com/aquaform/pinkonoid.git"
   },
   "bugs": {
-    "url": "https://github.com/htmlacademy-adaptive/3685-pink/issues"
+    "url": "https://github.com/aquaform/pinkonoid/issues"
   },
-  "homepage": "https://github.com/htmlacademy-adaptive/3685-pink",
+  "homepage": "https://github.com/aquaform/pinkonoid",
   "devDependencies": {
     "editorconfig-tools": "0.1.1"
   },
