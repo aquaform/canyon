@@ -1,24 +1,26 @@
 {
-  "name": "3685-pink",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Адаптивный Pinconoid",
-  "author": "Hacker",
+  "name": "pinkonoid",
+  "version": "0.0.1",
+  "description": "Приложение Pinkonoid",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aquaform/pinkonoid.git"
+    "url": "git+https://github.com/aquaform/pinkonoid.git"
   },
+  "author": "Vladimir Ku",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/aquaform/pinkonoid/issues"
   },
-  "homepage": "https://github.com/aquaform/pinkonoid",
+  "homepage": "https://github.com/aquaform/pinkonoid#readme",
   "devDependencies": {
-    "editorconfig-tools": "0.1.1"
-  },
-  "scripts": {
-    "test": "editorconfig-tools check *"
-  },
-  "engines": {
-    "node": "5.11"
+    "editorconfig-tools": "^0.1.1",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0"
   }
 }
