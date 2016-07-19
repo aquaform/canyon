@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Пинконойд</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="hidden-title">Приложение "Pinkonoid"</h1>
+      <div class="page-header__logo">
+        <img src="img/logo.svg" alt="Приложение Pinkonoid">
+      </div>
+      <nav class="main-nav  main-nav--closed main-nav--nojs">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__inner">
+          <ul class="main-nav__list">
+            <li class="main-nav__item  main-nav__item--active"><a href="#">Главная</a> </li>
+            <li class="main-nav__item"><a href="#">Информация</a> </li>
+            <li class="main-nav__item"><a href="#">Возможности</a> </li>
+            <li class="main-nav__item"><a href="#">Отзывы</a> </li>
+            <li class="main-nav__item"><a href="#">Стоимость</a> </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="download">
+      <div class="download__intro">
+        <h2 title="hidden-title">Скачать Pinkonoid.</h2>
+        <b class="slogan">Взгляните на жизнь иначе!</b>
+        <img class="download__app-view" >
+      </div>
+      <button class="download__btn">Скачать приложение</button>
+      <ul class="download__platforms">
+        <li class="download__platform"><a class="download__platform-link">Mac</a></li>
+        <li class="download__platform"><a class="download__platform-link">Android</a></li>
+        <li class="download__platform"><a class="download__platform-link">Windows</a></li>
+      </ul>
+      <p class="download__desc">Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8</p>
+    </section>
+    <section class="advantages">
+      <h2 class="hidden-title">Преймущества Pinkonoid</h2>
+      <div class="advantages__slogans">
+        <b class="slogan">Устали от серости мегаполиса?</b>
+        <b class="slogan">Нам есть, что вам предложить!</b>
+      </div>
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <img class="advantages__feature-picture" src="img/feature-1.png">
+          <h3 class="advantages__item-title">Поднимает настроение</h3>
+          <p class="advantages__item-desc">Приложение позволит вам победить осеннюю
+            хандру и деперессию буквально в несколько кликов!</p>
+        </li>
+        <li class="advantages__item">
+          <img class="advantages__feature-picture" src="img/feature-2.png">
+          <h3 class="advantages__item-title">Меняет мир вокруг</h3>
+          <p class="advantages__item-desc">Сделайте снимок и украсьте его смайликом
+            или текстовой подписью, чтобы усилить эффект</p>
+        </li>
+        <li class="advantages__item">
+          <img class="advantages__feature-picture" src="img/feature-3.png">
+          <h3 class="advantages__item-title">Заводит новых друзей</h3>
+          <p class="advantages__item-desc">Ставьте лайки, комментируте, делитесь
+            фотографиями с друзьями и заводите новых</p>
+        </li>
+      </ul>
+    </section>
+    <section class="research">
+      <img class="research__image" src="img/research.png">
+      <h2 class="research__title">Эффект на 24 часа!</h2>
+      <p class="research__desc">Британские ученые провели исследования и
+        доказали, что положительный эффект от использования приложения длится
+        целые сутки!</p>
+      <a class="research__link" href="#">Узнать больше об исследовании</a>
+    </section>
+    <section class="reviews">
+      <h2 class="hidden-title">Отзывы о Pinkonoid</h2>
+      <div class="reviews__wrapper  slider">
+        <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+        <input class="slider__input" type="radio" name="reviews" id="reviews-input-2">
+        <input class="slider__input" type="radio" name="reviews" id="reviews-input-3">
+        <div class="reviews__list">
+          <blockquote class="reviews__item  slider__item">
+            <div class="reviews__decoration-icon"></div>
+            <p>Это приложение перевернуло мой мир и позволило по-новому взглянуть
+              на привычные серые вещи! А еще я познакомился со своей будущей женой
+              в комментариях к выложенной фотографии!</p>
+            <cite class="reviews__author">
+              <span class="reviews__author-name">Николай Петров</span>
+              <span class="reviews__who-is-author">25 лет, водитель трамвая</span>
+            </cite>
+          </blockquote>
+          <blockquote class="reviews__item  slider__item">
+            <div class="reviews__decoration-icon"></div>
+            <p>Мои дни были как у персонажа фильм "День сурка" - унылые,
+              скучные и однообразные. Однако я познакомился с этим приложением и
+              мой мир изменился. Не поверите, но моча тоже приобрела розовый оттенок.</p>
+            <cite class="reviews__author">
+              <span class="reviews__author-name">Арсений Блинов</span>
+              <span class="reviews__who-is-author">21 год, менеджер по транспортировке грузов</span>
+            </cite>
+          </blockquote>
+          <blockquote class="reviews__item  slider__item">
+            <div class="reviews__decoration-icon"></div>
+            <p>Заметил странный эффект - после использования программы я начала видеть пришельцев.
+                Они прикольные :)</p>
+            <cite class="reviews__author">
+              <span class="reviews__author-name">Климентина Беспалая</span>
+              <span class="reviews__who-is-author">24 год, танцор-диско</span>
+            </cite>
+          </blockquote>
+          <button class="reviews__prev-btn" type="button">Предыдущий отзыв</button>
+          <button class="reviews__next-btn" type="button">Слудующий отзыв</button>
+        </div>
+        <div class="reviews__switchers  slider__switchers">
+          <label class="slider__switcher" for="reviews-input-1">1</label>
+          <label class="slider__switcher" for="reviews-input-2">2</label>
+          <label class="slider__switcher" for="reviews-input-3">3</label>
+        </div>
+      </div>
+    </section>
+    <section class="offers">
+      <h2 class="hidden-title">Предложения Pinkonoid</h2>
+      <div class="offers__wrapper  slider">
+        <input class="slider__input" type="radio" name="offer" id="offers-input-1" checked>
+        <input class="slider__input" type="radio" name="offer" id="offers-input-2">
+        <input class="slider__input" type="radio" name="offer" id="offers-input-3">
+        <ul class="offers__list">
+          <li class="offer  offer--hit slider__item">
+            <div class="offer__main-info">
+              <div class="offer__name">Стандарт</div>
+              <div class="offer__price">3.99 USD</div>
+            </div>
+            <table class="offer__features">
+              <tr>
+                <td class="offer__feature">Розовый фильтр</td>
+                <td class="offer__feature-is-available">Да</td>
+              </tr>
+              <tr>
+                <td class="offer__feature">Смайлики</td>
+                <td class="offer__feature-is-available">Да</td>
+              </tr>
+              <tr>
+                <td class="offer__feature">Комментарии</td>
+                <td class="offer__feature-is-available">Нет</td>
+            </table>
+          </li>
+          <li class="offer  slider__item">
+            <div class="offer__main-info">
+              <div class="offer__name">База</div>
+              <div class="offer__price">1.99 USD</div>
+            </div>
+            <table class="offer__features">
+              <tr>
+                <td class="offer__feature">Розовый фильтр</td>
+                <td class="offer__feature-is-available">Да</td>
+              </tr>
+              <tr>
+                <td class="offer__feature">Смайлики</td>
+                <td class="offer__feature-is-available">Нет</td>
+              </tr>
+              <tr>
+                <td class="offer__feature">Комментарии</td>
+                <td class="offer__feature-is-available">Нет</td>
+            </table>
+          </li>
+          <li class="offer  slider__item">
+            <div class="offer__main-info">
+              <div class="offer__name">Анлим</div>
+              <div class="offer__price">9.99 USD</div>
+            </div>
+            <table class="offer__features">
+              <tr>
+                <td class="offer__feature">Розовый фильтр</td>
+                <td class="offer__feature-is-available">Да</td>
+              </tr>
+              <tr>
+                <td class="offer__feature">Смайлики</td>
+                <td class="offer__feature-is-available">Да</td>
+              </tr>
+              <tr>
+                <td class="offer__feature">Комментарии</td>
+                <td class="offer__feature-is-available">Да</td>
+            </table>
+          </li>
+        </ul>
+      </div>
+      <div class="offers__switchers  slider__switchers">
+        <label class="slider__switcher" for="offers-input-1">1</label>
+        <label class="slider__switcher" for="offers-input-2">2</label>
+        <label class="slider__switcher" for="offers-input-3">3</label>
+      </div>
+    </section>
+    <section class="contacts">
+      <h2 class="hidden-title">Контакты Pinkonoid</h2>
+        <div class="contacts__slogans">
+          <b class="slogan">Остались вопросы?</b>
+          <b class="slogan">Свяжитесь с нами!</b>
+        </div>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <h3>Звоните:</h3>
+            <p>8 (800) 1000 900</p>
+          </li>
+          <li class="contacts__item">
+            <h3>Приезжайте в гости:</h3>
+            <p>Санкт-Петербург,<br>
+               Невский проспект, д. 20
+            </p>
+          </li>
+          <li class="contacts__item">
+            <h3>Пишите:</h3>
+            <p>hello@pinkapp.ru</p>
+          </li>
+        </ul>
+      <div class="contacts__map"></div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-footer__logo"></div>
+      <div class="main-footer__social-buttons">
+        <a class="main-footer__social-btn-twitter  social-btn" href="#">Twitter</a>
+        <a class="main-footer__social-btn-facebook  social-btn" href="#">Facebook</a>
+        <a class="main-footer__social-btn-play  social-btn" href="#">Play</a>
+      </div>
+      <div class="main-footer__copyright">
+        <p>
+          <span>Website by</span>
+          <a class="main-footer__designer-logo" href="#"></a>
+          <span>for</span>
+          <a class="main-footer__customer-logo" href="#"></a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
